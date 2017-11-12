@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p "write 2 args: " name count
+mkdir ~/mylogs
+touch ~/mylogs/"$name"
+
