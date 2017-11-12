@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Type two strings" \n
+read first second
+#var_length=${#first}
+#var_length2=${#second}
+if (( (${#first}>2 ) && ( ${#second}>2) )); then
+	if [ "$first" == "$second" ]; then
+	echo "match"
+	else 
+	echo "don't match"
+	fi
+else 
+	echo "small strings"
+	exit 1 
+fi
+
