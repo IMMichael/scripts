@@ -1,0 +1,8 @@
+#!/bin/bash
+ls ~ -la
+read -p "Write filename to show" Name Name2
+cat $Name
+#echo $Name $Name2
+if [ -z "$Name2" ]; then
+tac $Name
+fi
