@@ -1,8 +1,0 @@
-#!/bin/bash
-touch /tmp/mytempfile
-ls /tmp/ -la
-mkdir /tmp/mytempdir
-ls /tmp/mytempdir
-mv /tmp/mytempfile /tmp/mytempdir
-
-rm -rf /tmp/mytempdir
